@@ -1,3 +1,4 @@
+wwwroot\backend\js\site.js
 wwwroot\css\animate.css
 wwwroot\css\bootstrap.min.css
 wwwroot\css\font-awesome.min.css
@@ -6,8 +7,6 @@ wwwroot\css\prettyPhoto.css
 wwwroot\css\price-range.css
 wwwroot\css\responsive.css
 wwwroot\favicon.ico
-wwwroot\hinhanh\home\1.jpg
-wwwroot\hinhanh\home\2.png
 wwwroot\js\bootstrap.min.js
 wwwroot\js\contact.js
 wwwroot\js\gmaps.js
@@ -74,3 +73,13 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\media\products\0fc7481c-be3c-4e73-9c49-6307ad88f2ef_msi-katana-15-b13udxk-i7-2077vn-glr-2-638618372665746991-750x500.jpg
+wwwroot\media\products\1.jpg
+wwwroot\media\products\18ea1329-db33-47d1-8d1b-8460e27e38ef_download.jpg
+wwwroot\media\products\2.jpg
+wwwroot\media\products\395fe391-9a7b-4d20-bbac-e70a12f8157e_7052_6976_samsung_galaxy_book_pro_2021_h2_jpeg.jpg
+wwwroot\media\products\58c24977-3dee-42bf-ad41-1504f933f2e0_OIP.jpg
+wwwroot\media\products\58d69d96-b0cf-4495-842a-68ab22beb0f6_dell-latitude-3520-i7-70261780-091221-022033-600x600.jpg
+wwwroot\media\products\8342dde7-4c99-4081-8ce4-4777ca100e73_laptop-choi-game-ASUS-TUF-dinh-cao-cong-nghe hinh 1.jpg
+wwwroot\media\products\8518765b-da9b-4901-9ebf-e27b2d0b5e85_2022_10_20_638018713259338198_lenovo-gaming-legion-5-15arh7-xam-dam-2.jpg
+wwwroot\media\products\88b18463-d64d-4e25-814f-c236d63ada33_download.jpg

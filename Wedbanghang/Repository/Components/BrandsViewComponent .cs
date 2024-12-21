@@ -10,6 +10,6 @@ namespace Wedbanghang.Repository.Components
         {
             _dataContext = context;
         }
-        public async Task<IViewComponentResult> InvokeAsync() => View(await _dataContext.brands.ToListAsync());
+        public async Task<IViewComponentResult> InvokeAsync() => View(await _dataContext.Brands.ToListAsync());
     }
 }

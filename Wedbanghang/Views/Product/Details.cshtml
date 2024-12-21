@@ -1,6 +1,39 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-   Product Details
-@{
-}
+﻿@using System.Globalization
+
+<div class="row">
+	<div class="col-sm-3">
+		@Html.Partial("_Sidebar")
+	</div>
+	<div class="col-sm-9 padding-right">
+		<div class="product-Details">
+			<div class="col-sm-5">
+				<div class="view-product">
+					<img src="~/media/products/@Model.Image" alt="@Model.Name" with="100%" />
+				</div>
+			</div>
+			<div class="col-sm-7">
+				<div class="product-information">
+					<h5>@Model.Name</h5>
+					@{
+						CultureInfo cul = CultureInfo.GetCultureInfo("vi-VN");
+						decimal price = Model.Price * 1000000;
+					}
+					<span>
+						<span>@price.ToString("#,###", cul) VNĐ</span>
+						<label>Quantity: 1</label>
+						<input type="text" value="3" />
+						<a class="btn btn-default add-to-cart" asp-action="Add" asp-controller="Cart" asp-route-id="@Model.Id"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+
+					</span>
+					<p><b>Availability:</b> In Stock</p>
+					<p><b>Condition:</b> New</p>
+					<p><b>Brand:</b> @Model.Brand.Name</p>
+					<p><b>Category:</b> @Model.Category.Name</p>
+					<a href=""><img src="images/product-details/share.png" class="share img-responsive" alt="" /></a>
+				</div><
+			</div>
+		</div><		
+			</div>
+		</div><
+	</div>
+</div>

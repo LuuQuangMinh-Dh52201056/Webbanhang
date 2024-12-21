@@ -1,5 +1,23 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\backend\js\site.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Wedbanghang</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Wedbanghang</BasePath>
+      <RelativePath>backend/js/site.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2qf1wd7m0u</Fingerprint>
+      <Integrity>JpbVdlBhMWrnaWm6FGFNw+w1voEMue3Pp6pyv3/l/kY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\backend\js\site.js'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\animate.css'))">
       <SourceType>Package</SourceType>
       <SourceId>Wedbanghang</SourceId>
@@ -143,42 +161,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\hinhanh\home\1.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Wedbanghang</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Wedbanghang</BasePath>
-      <RelativePath>hinhanh/home/1.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2zj9v1t8wk</Fingerprint>
-      <Integrity>XsAyUteEiAI1/VKQSPpSM8CgJH5YyRbyeQ4nFAeArL4=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\hinhanh\home\1.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\hinhanh\home\2.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Wedbanghang</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Wedbanghang</BasePath>
-      <RelativePath>hinhanh/home/2.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0ltps59x8s</Fingerprint>
-      <Integrity>BAJboBK0r55qGDBgnE8tDO/zqOy94RUyAL21lwa0uUs=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\hinhanh\home\2.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.min.js'))">
       <SourceType>Package</SourceType>
@@ -1368,23 +1350,203 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Wedbanghang.rnfpa4my6f.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\0fc7481c-be3c-4e73-9c49-6307ad88f2ef_msi-katana-15-b13udxk-i7-2077vn-glr-2-638618372665746991-750x500.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Wedbanghang</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Wedbanghang</BasePath>
-      <RelativePath>Wedbanghang.rnfpa4my6f.bundle.scp.css</RelativePath>
+      <RelativePath>media/products/0fc7481c-be3c-4e73-9c49-6307ad88f2ef_msi-katana-15-b13udxk-i7-2077vn-glr-2-638618372665746991-750x500.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hnofdklw1t</Fingerprint>
+      <Integrity>c4gZrAu9cEfspkjSgiUCtwIDjL9jyV3W+IhkR9ta88g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\0fc7481c-be3c-4e73-9c49-6307ad88f2ef_msi-katana-15-b13udxk-i7-2077vn-glr-2-638618372665746991-750x500.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Wedbanghang</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Wedbanghang</BasePath>
+      <RelativePath>media/products/1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2zj9v1t8wk</Fingerprint>
+      <Integrity>XsAyUteEiAI1/VKQSPpSM8CgJH5YyRbyeQ4nFAeArL4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\18ea1329-db33-47d1-8d1b-8460e27e38ef_download.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Wedbanghang</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Wedbanghang</BasePath>
+      <RelativePath>media/products/18ea1329-db33-47d1-8d1b-8460e27e38ef_download.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ksijlybjy0</Fingerprint>
+      <Integrity>5FKYFsnaW0tz/PZAKONawiiNVYcGOHEKy7a9eXxxn3k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\18ea1329-db33-47d1-8d1b-8460e27e38ef_download.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Wedbanghang</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Wedbanghang</BasePath>
+      <RelativePath>media/products/2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ck1oga1ykx</Fingerprint>
+      <Integrity>FNquxC/G3NjX0dK9QJscilcjFczXAdU4tlVXsgBkocY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\395fe391-9a7b-4d20-bbac-e70a12f8157e_7052_6976_samsung_galaxy_book_pro_2021_h2_jpeg.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Wedbanghang</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Wedbanghang</BasePath>
+      <RelativePath>media/products/395fe391-9a7b-4d20-bbac-e70a12f8157e_7052_6976_samsung_galaxy_book_pro_2021_h2_jpeg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5qmwf9vcng</Fingerprint>
+      <Integrity>86HTRjbnJyGXQXwx56r4kDD7U2GT9uIJuR5XEktCots=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\395fe391-9a7b-4d20-bbac-e70a12f8157e_7052_6976_samsung_galaxy_book_pro_2021_h2_jpeg.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\58c24977-3dee-42bf-ad41-1504f933f2e0_OIP.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Wedbanghang</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Wedbanghang</BasePath>
+      <RelativePath>media/products/58c24977-3dee-42bf-ad41-1504f933f2e0_OIP.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>n1wu7btdf9</Fingerprint>
+      <Integrity>RX/AntP6W0Ditlpm/vRcjCqQbxF7QiW5WySZOOhRXH0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\58c24977-3dee-42bf-ad41-1504f933f2e0_OIP.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\58d69d96-b0cf-4495-842a-68ab22beb0f6_dell-latitude-3520-i7-70261780-091221-022033-600x600.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Wedbanghang</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Wedbanghang</BasePath>
+      <RelativePath>media/products/58d69d96-b0cf-4495-842a-68ab22beb0f6_dell-latitude-3520-i7-70261780-091221-022033-600x600.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>q8aalj75j7</Fingerprint>
+      <Integrity>ppzETJb3ls7saHaX4/IB8Hxof000LR5ABaqYNc5i1BI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\58d69d96-b0cf-4495-842a-68ab22beb0f6_dell-latitude-3520-i7-70261780-091221-022033-600x600.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\8342dde7-4c99-4081-8ce4-4777ca100e73_laptop-choi-game-ASUS-TUF-dinh-cao-cong-nghe hinh 1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Wedbanghang</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Wedbanghang</BasePath>
+      <RelativePath>media/products/8342dde7-4c99-4081-8ce4-4777ca100e73_laptop-choi-game-ASUS-TUF-dinh-cao-cong-nghe hinh 1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ck1oga1ykx</Fingerprint>
+      <Integrity>FNquxC/G3NjX0dK9QJscilcjFczXAdU4tlVXsgBkocY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\8342dde7-4c99-4081-8ce4-4777ca100e73_laptop-choi-game-ASUS-TUF-dinh-cao-cong-nghe hinh 1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\8518765b-da9b-4901-9ebf-e27b2d0b5e85_2022_10_20_638018713259338198_lenovo-gaming-legion-5-15arh7-xam-dam-2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Wedbanghang</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Wedbanghang</BasePath>
+      <RelativePath>media/products/8518765b-da9b-4901-9ebf-e27b2d0b5e85_2022_10_20_638018713259338198_lenovo-gaming-legion-5-15arh7-xam-dam-2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>teui6hsrra</Fingerprint>
+      <Integrity>i2s6WjQ2SZzgmfTXqbgRosxpUFla7mj8xFmSsAyGVZY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\8518765b-da9b-4901-9ebf-e27b2d0b5e85_2022_10_20_638018713259338198_lenovo-gaming-legion-5-15arh7-xam-dam-2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\88b18463-d64d-4e25-814f-c236d63ada33_download.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Wedbanghang</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Wedbanghang</BasePath>
+      <RelativePath>media/products/88b18463-d64d-4e25-814f-c236d63ada33_download.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ksijlybjy0</Fingerprint>
+      <Integrity>5FKYFsnaW0tz/PZAKONawiiNVYcGOHEKy7a9eXxxn3k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\88b18463-d64d-4e25-814f-c236d63ada33_download.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Wedbanghang.njlktv7t9r.bundle.scp.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Wedbanghang</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Wedbanghang</BasePath>
+      <RelativePath>Wedbanghang.njlktv7t9r.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>rnfpa4my6f</Fingerprint>
-      <Integrity>eSpxiboUJ2/hALVtrjnZKNBuVNe1ivUIwX/Y6PofocY=</Integrity>
+      <Fingerprint>njlktv7t9r</Fingerprint>
+      <Integrity>7YzUTYVwTdmTWSTeAdC+Xn1kISYV30I90ICjsB3zuk4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Wedbanghang.rnfpa4my6f.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Wedbanghang.njlktv7t9r.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

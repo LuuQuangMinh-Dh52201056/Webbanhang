@@ -1,0 +1,47 @@
+﻿@using System.Globalization
+@model IEnumerable<ProductModel>
+<div class="col-sm-3">
+	@Html.Partial("_Sidebar")
+</div>
+<style>
+	.product-image-wrapper {
+		height: 430px;
+	}
+</style>
+<div class="col-sm-9 padding-right">
+	<div class="features_items">
+		<!--features_items-->
+		<h2 class="title text-center">Features Items</h2>
+		@foreach (var item in Model)
+		{
+			
+				CultureInfo cul = CultureInfo.GetCultureInfo("vi-VN");
+				decimal price = item.Price * 1000000;
+			<div class="col-sm-4">
+				<div class="product-image-wrapper">
+					<a>
+						<div class="single-products">
+							<div class="productinfo text-center">
+								<img src="~/media/products/@item.Image" alt="@item.Name" with="100%" />
+								<h2>@price.ToString("#,###", cul) VNĐ</h2>
+								<h5>@item.Name</h5>
+								<p>Danh Muc :@item.Category.Name</p>
+								<p>Thương Hiệu : @item.Brand.Name</p>
+								<a class="btn btn-default add-to-cart" asp-action="Add" asp-controller="Cart" asp-route-id="@item.Id"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+							</div>
+						</div>
+					</a>
+					<div class="choose">
+						<ul class="nav nav-pills nav-justified">
+							<li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
+							<li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		}
+
+
+	</div>
+</div>
+

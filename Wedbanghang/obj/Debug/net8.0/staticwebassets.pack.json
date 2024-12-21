@@ -2,7 +2,11 @@
   "Files": [
     {
       "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Wedbanghang.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Wedbanghang.rnfpa4my6f.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Wedbanghang.njlktv7t9r.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\backend\\js\\site.js",
+      "PackagePath": "staticwebassets\\backend\\js\\site.js"
     },
     {
       "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\css\\animate.css",
@@ -35,14 +39,6 @@
     {
       "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
-      "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\hinhanh\\home\\1.jpg",
-      "PackagePath": "staticwebassets\\hinhanh\\home\\1.jpg"
-    },
-    {
-      "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\hinhanh\\home\\2.png",
-      "PackagePath": "staticwebassets\\hinhanh\\home\\2.png"
     },
     {
       "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\js\\bootstrap.min.js",
@@ -307,6 +303,46 @@
     {
       "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\media\\products\\0fc7481c-be3c-4e73-9c49-6307ad88f2ef_msi-katana-15-b13udxk-i7-2077vn-glr-2-638618372665746991-750x500.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\0fc7481c-be3c-4e73-9c49-6307ad88f2ef_msi-katana-15-b13udxk-i7-2077vn-glr-2-638618372665746991-750x500.jpg"
+    },
+    {
+      "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\media\\products\\1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\1.jpg"
+    },
+    {
+      "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\media\\products\\18ea1329-db33-47d1-8d1b-8460e27e38ef_download.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\18ea1329-db33-47d1-8d1b-8460e27e38ef_download.jpg"
+    },
+    {
+      "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\media\\products\\2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\2.jpg"
+    },
+    {
+      "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\media\\products\\395fe391-9a7b-4d20-bbac-e70a12f8157e_7052_6976_samsung_galaxy_book_pro_2021_h2_jpeg.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\395fe391-9a7b-4d20-bbac-e70a12f8157e_7052_6976_samsung_galaxy_book_pro_2021_h2_jpeg.jpg"
+    },
+    {
+      "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\media\\products\\58c24977-3dee-42bf-ad41-1504f933f2e0_OIP.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\58c24977-3dee-42bf-ad41-1504f933f2e0_OIP.jpg"
+    },
+    {
+      "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\media\\products\\58d69d96-b0cf-4495-842a-68ab22beb0f6_dell-latitude-3520-i7-70261780-091221-022033-600x600.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\58d69d96-b0cf-4495-842a-68ab22beb0f6_dell-latitude-3520-i7-70261780-091221-022033-600x600.jpg"
+    },
+    {
+      "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\media\\products\\8342dde7-4c99-4081-8ce4-4777ca100e73_laptop-choi-game-ASUS-TUF-dinh-cao-cong-nghe hinh 1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\8342dde7-4c99-4081-8ce4-4777ca100e73_laptop-choi-game-ASUS-TUF-dinh-cao-cong-nghe hinh 1.jpg"
+    },
+    {
+      "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\media\\products\\8518765b-da9b-4901-9ebf-e27b2d0b5e85_2022_10_20_638018713259338198_lenovo-gaming-legion-5-15arh7-xam-dam-2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\8518765b-da9b-4901-9ebf-e27b2d0b5e85_2022_10_20_638018713259338198_lenovo-gaming-legion-5-15arh7-xam-dam-2.jpg"
+    },
+    {
+      "Id": "D:\\Wedbanghang\\Wedbanghang\\Wedbanghang\\wwwroot\\media\\products\\88b18463-d64d-4e25-814f-c236d63ada33_download.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\88b18463-d64d-4e25-814f-c236d63ada33_download.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Wedbanghang.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
